@@ -1,16 +1,17 @@
 from pathlib import Path
 from typing import Union 
 import pandas as pd 
-from .config import (
+from .config import (    
 RAW_RESUME_FILE,
-    PROCESSED_RESUME_FILE,
-    REQUIRED_SOURCE_COLUMNS,
-    SOURCE_ID_COLUMN,
-    SOURCE_TEXT_COLUMN,
-    SOURCE_LABEL_COLUMN,
-    ID_COLUMN,
-    TEXT_COLUMN,
-    LABEL_COLUMN,
+PROCESSED_RESUME_FILE,
+REQUIRED_SOURCE_COLUMNS,
+SOURCE_ID_COLUMN,
+SOURCE_TEXT_COLUMN,
+SOURCE_LABEL_COLUMN,
+ID_COLUMN,
+TEXT_COLUMN,
+LABEL_COLUMN,
+
 )
 
 def validate_file_exists(file_path: Union[str, Path]) -> Path:
