@@ -16,7 +16,7 @@ NOTEBOOKS_DIR = PROJECT_ROOT / "notebooks"
 # =========================
 # Raw Dataset File
 # =========================
-RAW_RESUME_FILE = RAW_DATA_DIR / "resume_dataset.csv"
+RAW_RESUME_FILE = RAW_DATA_DIR / "Resume.csv"
 
 # =========================
 # Processed Output Files
