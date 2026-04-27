@@ -207,7 +207,7 @@ def preprocess_resume_dataframe(
 
     processed_df = df.copy()
 
-    processed_df[output_column] = preprocess_resume_dataframe(
+    processed_df[output_column] = preprocess_text_series(
         text_series = processed_df[text_column],
         remove_stopwords= remove_stopwords,
         extra_stopwords= extra_stopwords
