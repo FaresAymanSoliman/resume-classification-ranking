@@ -36,7 +36,7 @@ def encode_labels (labels: np.ndarray) -> Tuple[np.ndarray, LabelEncoder]:
     Returns: 
         Encoded labels and fitted LabelEncoder.
     """
-    encoder = LabelEncoder
+    encoder = LabelEncoder()
     encoded_labels = encoder.fit_transform(labels)
     return encoded_labels, encoder
 
